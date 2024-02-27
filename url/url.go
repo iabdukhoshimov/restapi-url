@@ -15,7 +15,8 @@ type URL struct {
 }
 
 type ShortenParams struct {
-	URL string // the URL to shorten
+	URL   string // the URL to shorten
+	Hello string // hello for the input
 }
 
 // Shorten shortens a URL.
